@@ -89,7 +89,7 @@ function findIndex(id){
 
 app.get("/api/users", function(req, res){
     return res.json(users);
-})
+});
 
 
 app.get("/api/users/:id", function(req, res){
@@ -136,3 +136,4 @@ app.listen(port, function(){
     console.log("Server running on http://localhost:" + port);
 });
 
+//put and delete do urself..
